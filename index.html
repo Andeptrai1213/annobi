@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .section-title {
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        .info, .education, .experience, .activities, .skills, .certificates, .interests, .projects, .contact {
+            margin-bottom: 20px;
+        }
+        .info div, .education div, .experience div, .activities div, .skills div, .certificates div, .interests div, .projects div, .contact div {
+            margin-bottom: 10px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/Ann.jpg" alt="Profile Picture">
+            <h1>Trần Đỗ Bình An</h1>
+        </div>
+        <div class="info">
+            <div>Ngày sinh: 07/07/2005</div>
+            <div>Giới tính: Nam</div>
+            <div>Điện thoại: (+84) 0372464079</div>
+            <div>Email: trandobinhan2005thd@gmail.com</div>
+            <div>Địa chỉ: Gia Lai, Việt Nam</div>
+            <div>Website: <a href="https://abc.tech">https://abc.tech</a></div>
+        </div>
+        
+        <div class="section-title">Mục Tiêu Nghề Nghiệp</div>
+        <div class="objective">
+             Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh nghiệp của FUNIX.
+        </div>
+        
+        <div class="section-title">Học Vấn</div>
+        <div class="education">
+            <div class="bold">06/2021 - 05/2022</div>
+            <div>FUNiX</div>
+            <div>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</div>
+            <div>GPA: 9/10</div>
+            
+            <div class="bold">08/2016 - 07/2019</div>
+            <div>Cử nhân - ĐH FPT</div>
+            <div>Chuyên ngành: Kỹ thuật phần mềm.</div>
+            <div>GPA: 3.2/4</div>
+        </div>
+        
+        <div class="section-title">Kinh Nghiệm Làm Việc</div>
+        <div class="experience">
+            <div class="bold">05/2022 - Hiện tại</div>
+            <div>Công ty Y</div>
+            <div>Full Stack Developer</div>
+            <div>
+                - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.<br>
+                - Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL (MySQL, SQLServer, NoSQL, ...) và viết được các câu truy vấn.<br>
+                - Sử dụng ngôn ngữ server-side (Python, Java, ...) để xây dựng các Web Service
+            </div>
+            
+            <div class="bold">06/2021 - 04/2022</div>
+            <div>Công ty X</div>
+            <div>Chuyên viên bảo mật mạng</div>
+            <div>
+                - bảo mật các thông tin<br>
+                - Sử dụng các công cụ: Figma, Canva, PTS.
+            </div>
+        </div>
+        
+        <div class="section-title">Hoạt Động</div>
+        <div class="activities">
+            <div class="bold">03/2019 - 05/2019</div>
+            <div>FPT Edu Hackathon 2019</div>
+            <div>Giải 3 bảng A</div>
+            <div>Đề tài: Trang web về phân loại rác thải.</div>
+            
+            <div class="bold">08/2016 - 08/2017</div>
+            <div>Câu lạc bộ Z</div>
+            <div>Trưởng ban chuyên môn</div>
+        </div>
+        
+        <div class="section-title">Kỹ Năng</div>
+        <div class="skills">
+            <div>HTML/CSS: Fundamental</div>
+            <div>Javascript: Intermediate</div>
+            <div>NodeJS: Intermediate</div>
+            <div>Bootstrap 5: Fundamental</div>
+        </div>
+        
+        <div class="section-title">Chứng Chỉ - Giải Thưởng</div>
+        <div class="certificates">
+            <div>2021: Chứng chỉ lập trình Web - FUNiX</div>
+            <div>2021: Chứng chỉ lập trình Javascript - FUNiX</div>
+        </div>
+        
+        <div class="section-title">Sở Thích</div>
+        <div class="interests">
+            <div>- Âm nhạc</div>
+            <div>- Chơi game</div>
+            <div>- Trang trí</div>
+            <div>- Nấu ăn</div>
+            <div> Xem phim</div>
+        </div>
+        
+        <div class="section-title">Dự Án</div>
+        <div class="projects">
+            <div class="bold">2021</div>
+            <div>Trang web quản lý thú cưng</div>
+            <div>Vị trí: Developer</div>
+            <div>Mô tả: Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức năng thêm / sửa / xóa.</div>
+            <div>Nhiệm vụ: Phát triển, tối ưu code và xử lý lỗi.</div>
+            <div>Công nghệ: HTML, CSS</div>
+            
+            <div class="bold">2021</div>
+            <div>Trang web xem tin tức</div>
+            <div>Vị trí: Developer</div>
+            <div>Mô tả: Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ khóa.</div>
+            <div>Nhiệm vụ: Phát triển, tối ưu code và xử lý lỗi.</div>
+            <div>Công nghệ: HTML, CSS</div>
+            
+            <div class="bold">2021</div>
+            <div>CV cá nhân</div>
+            <div>Vị trí: Developer</div>
+            <div>Mô tả: Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp.</div>
+            <div>Nhiệm vụ: Phát triển, tối ưu code và xử lý lỗi.</div>
+            <div>Công nghệ: HTML, CSS</div>
+        </div>
+        
+        <div class="section-title">Liên Hệ</div>
+        <div class="contact">
+            <div><a href="https://facebook.com">Facebook</a></div>
+            <div><a href="https://linkedin.com">LinkedIn</a></div>
+            <div><a href="https://github.com">GitHub</a></div>
+        </div>
+    </div>
+</body>
+</html>
